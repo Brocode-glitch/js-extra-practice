@@ -7,5 +7,5 @@
 // YOUR CODE BELOW
 
 // Do not change the code below
-myGuess = 1000000000;
+myGuess = 400;
 module.exports = { myGuess };
