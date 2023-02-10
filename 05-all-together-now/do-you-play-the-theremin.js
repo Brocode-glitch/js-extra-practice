@@ -4,10 +4,15 @@
 // Otherwise, doYouPlayTheTheremin should return false.
 
 // Example:
-// doYouPlayTheTheremin('Griffin'); // => false
-// doYouPlayTheTheremin('Scott'); // => true
+//console.log(doYouPlayTheTheremin("Griffin"));
+// => false
+//console.log(doYouPlayTheTheremin("Scott"));
+// => true
 
 // YOUR CODE BELOW
+function doYouPlayTheTheremin(str) {
+  return str.charAt(0).toLowerCase() === "s";
+}
 
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };
